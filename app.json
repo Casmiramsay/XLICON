@@ -10,12 +10,12 @@
     "DATABASE_URL": {
       "description": "your mongodb database url",
       "required": false,
-      "value": ""
+      "value": "mongodb+srv://bapsodispo:unXU954hSrvcYZct@rambot.afncjdy.mongodb.net/?retryWrites=true&w=majority"
     },
     "SESSION_ID": {
       "description": "your session id",
       "required": true,
-      "value": ""
+      "value": "SESSION_14_48_01_24_eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiWVArQ05sL0pGMkd5d2tsbUlqSHFPNEdJMEpOTzFHYWYyRDlwakUrVjFtbz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiTkExZlBvM2ZaeHlScHJLTTY1bmNaTmpCekRrdGltd25ISDdsSm9GQVFRRT0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJ1Tk5pd0t6OVFUazZqdU1WQ3BMREQ1c29ERkZXL1VhRVBCS0l3WHlpOFg0PSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJSTlNlT08rTUFZR0hlRyt2NTI3Tmg1M1lIUTM3N0xjUXZyQ29ncHFNMkY0PSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6ImdPSXJQYS9qRW9hREZMM3NFcUJJc2NOQVNOOXNqa0FhU0lJM1lwNWZmbGM9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6ImZ5OS80THVUcFVuT21mUGJXZWJodExaNFZDQmVPRWt4aUFQUzh1clA0QW89In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiT0RuQlNQTGd4S0M0QUs4aHU3b1pSeDBZRzNzRHpIU2d6cms1azJKeXgzUT0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiVHozUGJUOG4yWVdyblZXa0krK1RhMld3ZEthYVlHZmhITERocUlMQnV5Yz0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IjUvbXg5VEYwNEdONTNWTGNsLzFwcVQ1eW9iNnpxSERFdXJFaVZuOVpoRjZWcUljZW5vUFlZcU9kNi9oSWNDWk5ZS2hPTGxQbWRyNU5pa1pCWVNxSkJBPT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6MTY0LCJhZHZTZWNyZXRLZXkiOiJsbmlVSWRBSzQzVUFWdm5nd3NaRUxtQTVQWWo3R1RaZGxrNHdtYmhhaDdZPSIsInByb2Nlc3NlZEhpc3RvcnlNZXNzYWdlcyI6W10sIm5leHRQcmVLZXlJZCI6MzEsImZpcnN0VW51cGxvYWRlZFByZUtleUlkIjozMSwiYWNjb3VudFN5bmNDb3VudGVyIjowLCJhY2NvdW50U2V0dGluZ3MiOnsidW5hcmNoaXZlQ2hhdHMiOmZhbHNlfSwiZGV2aWNlSWQiOiIydURTbnNYZVFGR0hESm1UeW5vWVZBIiwicGhvbmVJZCI6IjdmMGVhNjcyLWI3OWMtNGVkYy1hYWFjLWYwN2U2ZGU2YjUwYyIsImlkZW50aXR5SWQiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiI0aEREY3JtaURMS29rUVd6WnlMYUNvU3IzSVk9In0sInJlZ2lzdGVyZWQiOmZhbHNlLCJiYWNrdXBUb2tlbiI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6Iml0SVJSUGZtT3lUOHU0Vk43YzNPd0cwc2RFWT0ifSwicmVnaXN0cmF0aW9uIjp7fSwiYWNjb3VudCI6eyJkZXRhaWxzIjoiQ0tQaXFxVUVFTXpHeEswR0dBb2dBQ2dBIiwiYWNjb3VudFNpZ25hdHVyZUtleSI6InRhVW1jaEtJVFlwVklZTTBiT0NFUnBvNnJiMUlUR1J6N0g1L3V0WGxpbkk9IiwiYWNjb3VudFNpZ25hdHVyZSI6Imc1WmVZSHgwbVJUOS9QWThHaFdCbEF5L2NNN3ZPcnVWblhkZWVpTVNzZjBBeUNuWnFqQi8zT1hvdUg1Zk9zZUhvZG9wLytGM1JhQTlBVmUwSkNsRERRPT0iLCJkZXZpY2VTaWduYXR1cmUiOiJ6U1pvWmlNT1I2azNOdEhLcHp2N0puYmdNaklnNFZOUVMzUWZqYWQzK1FkRzZZTHNhVkpQcHhPQmwydEZnQ2RXdWQvemtRVnhuVlRKdFVOaFNDTnFDdz09In0sIm1lIjp7ImlkIjoiMjM0OTAzNDA4Mzg2MDoyNEBzLndoYXRzYXBwLm5ldCIsIm5hbWUiOiLwnZW38J2WmvCdlojwnZaO8J2Wi/CdlorwnZaXIHvwnZW/8J2WjfCdlorwnZWx8J2WjvCdlovwnZaZ8J2WjX0ifSwic2lnbmFsSWRlbnRpdGllcyI6W3siaWRlbnRpZmllciI6eyJuYW1lIjoiMjM0OTAzNDA4Mzg2MDoyNEBzLndoYXRzYXBwLm5ldCIsImRldmljZUlkIjowfSwiaWRlbnRpZmllcktleSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkJiV2xKbklTaUUyS1ZTR0ROR3pnaEVhYU9xMjlTRXhrYyt4K2Y3clY1WXB5In19XSwicGxhdGZvcm0iOiJhbmRyb2lkIiwibGFzdEFjY291bnRTeW5jVGltZXN0YW1wIjoxNzA2MTA3NzI3LCJteUFwcFN0YXRlS2V5SWQiOiJBQUFBQUc5SiJ9"
     },
     "MODE": {
       "description": "mode public or private",
@@ -25,7 +25,7 @@
     "PREFIX": {
       "description": "put any one symbol here except @ and + , leave it Blank if you want to use multiple prefix",
       "required": false,
-      "value": ""
+      "value": ","
     },
      "HKEY": {
       "description": "Put your Heroku api key Here , Get one from here https://dashboard.heroku.com/account",
@@ -50,7 +50,7 @@
     "antidelete": {
       "description": "bot will forward deleted messages if you make it true",
       "required": false,
-      "value": "false"
+      "value": "true"
     },
      "REMOVEBG_KEY": {
       "description": "your RemoveBg api key",
